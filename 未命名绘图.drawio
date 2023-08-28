@@ -1,45 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T05:43:43.096Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="u2YblhD9TANVGo23KxF5" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T05:50:24.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="sl8cUCX9NTmoZKD6HqqD" version="21.6.9" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1194" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="261.5" y="160" width="120" height="30" as="geometry" />
+          <mxGeometry x="261" y="190" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3" value="更新、发布接口" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="242" y="250" width="159" height="80" as="geometry" />
+          <mxGeometry x="241.5" y="250" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4" target="40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4" value="新增发布" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="510" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="是否第一次发布" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="261" y="390" width="119" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="3" edge="1">
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="WVRgkFCHE4ahHa4Yw1o3-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="250" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="6" value="是否第一次发布" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="261" y="390" width="119" height="57" as="geometry" />
         </mxCell>
         <mxCell id="9" style="entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" target="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;entryX=0.5;entryY=0.91;entryPerimeter=0;exitX=1;exitY=0.5;exitPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="6" target="51" edge="1">
-          <mxGeometry x="381" y="28.5" width="100" height="100" as="geometry">
-            <mxPoint x="750" y="447" as="sourcePoint" />
-            <mxPoint x="765.395" y="318.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="545" y="400" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="11" value="否" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="370" y="390" width="40" height="26" as="geometry" />
+          <mxGeometry x="410" y="390" width="40" height="26" as="geometry" />
         </mxCell>
         <mxCell id="12" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;fontColor=#001933;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="6" target="4" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
@@ -50,29 +42,42 @@
         <mxCell id="14" value="是" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;align=center;" parent="1" vertex="1">
           <mxGeometry x="320" y="447" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="final project" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="515" width="140" height="70" as="geometry" />
+        <mxCell id="40" value="结束" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="660" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=0.905;exitY=0.5;exitPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="4" target="15" edge="1">
-          <mxGeometry width="100" height="100" as="geometry">
-            <mxPoint y="100" as="sourcePoint" />
-            <mxPoint x="100" as="targetPoint" />
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WVRgkFCHE4ahHa4Yw1o3-56" target="WVRgkFCHE4ahHa4Yw1o3-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WVRgkFCHE4ahHa4Yw1o3-56" target="WVRgkFCHE4ahHa4Yw1o3-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-69" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVRgkFCHE4ahHa4Yw1o3-67">
+          <mxGeometry x="-0.4456" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="40" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="830" width="120" height="30" as="geometry" />
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-56" value="模板是否有变更" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="392.75" width="140" height="51.5" as="geometry" />
         </mxCell>
-        <mxCell id="51" value="iron out&#xa;obscurities &#xa;with investor" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="300" width="150" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="52" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=0.5;exitY=0.09;exitPerimeter=0;entryX=0.905;entryY=0.5;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="51" edge="1">
-          <mxGeometry width="100" height="100" as="geometry">
-            <mxPoint y="100" as="sourcePoint" />
-            <mxPoint x="384.395" y="290" as="targetPoint" />
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WVRgkFCHE4ahHa4Yw1o3-61" target="40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="680" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="545" y="300" />
+              <mxPoint x="530" y="675" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-61" value="更新发布" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450.5" y="510" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-63" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="458" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WVRgkFCHE4ahHa4Yw1o3-66" target="40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVRgkFCHE4ahHa4Yw1o3-66" value="新增版本号发布" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="510" width="159" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
